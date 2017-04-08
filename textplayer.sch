@@ -324,7 +324,7 @@ MISO
 Text Label 1700 850  2    60   ~ 0
 SCK
 Text Label 1700 950  2    60   ~ 0
-RESET
+AVR_RESET
 Text Label 2400 850  0    60   ~ 0
 MOSI
 $Comp
@@ -350,7 +350,7 @@ F 3 "" H 2400 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 3250 2900 0    60   ~ 0
-RESET
+AVR_RESET
 Text Label 3250 2300 0    60   ~ 0
 MISO
 Text Label 3250 2200 0    60   ~ 0
