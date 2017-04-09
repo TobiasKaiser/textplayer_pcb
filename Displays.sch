@@ -1199,4 +1199,5 @@ Text Label 7700 6300 2    60   ~ 0
 6L
 Wire Wire Line
 	5550 5750 5750 5750
+NoConn ~ 5050 2150
 $EndSCHEMATC
