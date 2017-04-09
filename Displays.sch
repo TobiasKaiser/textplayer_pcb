@@ -83,10 +83,10 @@ F 3 "" H 3950 1250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR35
+L +3.3V #PWR037
 U 1 1 58EA48BE
 P 5950 1150
-F 0 "#PWR35" H 5950 1000 50  0001 C CNN
+F 0 "#PWR037" H 5950 1000 50  0001 C CNN
 F 1 "+3.3V" H 5950 1290 50  0000 C CNN
 F 2 "" H 5950 1150 50  0001 C CNN
 F 3 "" H 5950 1150 50  0001 C CNN
@@ -94,10 +94,10 @@ F 3 "" H 5950 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR37
+L GND #PWR038
 U 1 1 58EA48C4
 P 5450 1800
-F 0 "#PWR37" H 5450 1550 50  0001 C CNN
+F 0 "#PWR038" H 5450 1550 50  0001 C CNN
 F 1 "GND" H 5450 1650 50  0000 C CNN
 F 2 "" H 5450 1800 50  0001 C CNN
 F 3 "" H 5450 1800 50  0001 C CNN
@@ -133,10 +133,10 @@ VCC
 Text HLabel 7000 2150 0    60   Input ~ 0
 GND
 $Comp
-L GND #PWR38
+L GND #PWR039
 U 1 1 58EA4BA0
 P 7150 2250
-F 0 "#PWR38" H 7150 2000 50  0001 C CNN
+F 0 "#PWR039" H 7150 2000 50  0001 C CNN
 F 1 "GND" H 7150 2100 50  0000 C CNN
 F 2 "" H 7150 2250 50  0001 C CNN
 F 3 "" H 7150 2250 50  0001 C CNN
@@ -144,10 +144,10 @@ F 3 "" H 7150 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR36
+L +3.3V #PWR040
 U 1 1 58EA4BBD
 P 7150 1700
-F 0 "#PWR36" H 7150 1550 50  0001 C CNN
+F 0 "#PWR040" H 7150 1550 50  0001 C CNN
 F 1 "+3.3V" H 7150 1840 50  0000 C CNN
 F 2 "" H 7150 1700 50  0001 C CNN
 F 3 "" H 7150 1700 50  0001 C CNN
@@ -1107,4 +1107,94 @@ Wire Wire Line
 	6500 6250 6350 6250
 Wire Wire Line
 	5750 6250 5550 6250
+Text Label 7700 2900 2    60   ~ 0
+1E
+Text Label 7700 2800 2    60   ~ 0
+1L
+Text Label 7700 3100 2    60   ~ 0
+2E
+Text Label 7700 3000 2    60   ~ 0
+2L
+Text Label 7700 3300 2    60   ~ 0
+3E
+Text Label 7700 3200 2    60   ~ 0
+3L
+Text Label 7700 3500 2    60   ~ 0
+4E
+Text Label 7700 3400 2    60   ~ 0
+4L
+Text Label 5300 3150 0    60   ~ 0
+X1
+Text Label 5300 3050 0    60   ~ 0
+X2
+Text Label 5300 2950 0    60   ~ 0
+X3
+Text Label 5300 2850 0    60   ~ 0
+X4
+Text Label 5300 2750 0    60   ~ 0
+X5
+Text Label 5300 2650 0    60   ~ 0
+X6
+Text Label 5300 2550 0    60   ~ 0
+X7
+Text Label 7700 3600 2    60   ~ 0
+X1
+Text Label 7700 3700 2    60   ~ 0
+X2
+Text Label 7700 3800 2    60   ~ 0
+X3
+Text Label 7700 3900 2    60   ~ 0
+X4
+Text Label 7700 4000 2    60   ~ 0
+X5
+Text Label 7700 4100 2    60   ~ 0
+X6
+Text Label 7700 4200 2    60   ~ 0
+X7
+Text Label 7700 4300 2    60   ~ 0
+1M
+Text Label 7700 4400 2    60   ~ 0
+1D
+Text Label 7700 4500 2    60   ~ 0
+2M
+Text Label 7700 4600 2    60   ~ 0
+2D
+Text Label 7700 4700 2    60   ~ 0
+3M
+Text Label 7700 4800 2    60   ~ 0
+3D
+Text Label 7700 4900 2    60   ~ 0
+4M
+Text Label 7700 5000 2    60   ~ 0
+4D
+Text Label 7700 5100 2    60   ~ 0
+5M
+Text Label 7700 5200 2    60   ~ 0
+5D
+Text Label 7700 5300 2    60   ~ 0
+6M
+Text Label 7700 5400 2    60   ~ 0
+6D
+Text Label 7700 5500 2    60   ~ 0
+7M
+Text Label 7700 5600 2    60   ~ 0
+7D
+Text Label 7700 5700 2    60   ~ 0
+8M
+Text Label 7700 5800 2    60   ~ 0
+8D
+Text Label 3700 2350 2    60   ~ 0
+X8
+Wire Wire Line
+	3700 2350 3950 2350
+Text Label 7700 5900 2    60   ~ 0
+X8
+Text Label 7700 6000 2    60   ~ 0
+5E
+Text Label 7700 6100 2    60   ~ 0
+5L
+Text Label 7700 6200 2    60   ~ 0
+6E
+Text Label 7700 6300 2    60   ~ 0
+6L
 $EndSCHEMATC
